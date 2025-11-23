@@ -1,0 +1,500 @@
+{
+  "blockchain_info": {
+    "total_blocks": 13,
+    "total_intrusions": 12,
+    "export_timestamp": "2025-11-23 06:10:51.033733",
+    "is_valid": true
+  },
+  "blocks": [
+    {
+      "index": 0,
+      "timestamp": "2025-11-23 06:10:48.803434",
+      "data": {
+        "message": "Threat Log Blockchain Initialized",
+        "system": "Network Intrusion Detection System"
+      },
+      "previous_hash": "0",
+      "hash": "a5c9656d2bd5ba5874308b84668a21da65952c3aa14f4dcfcb68002ed99f649b"
+    },
+    {
+      "index": 1,
+      "timestamp": "2025-11-23 06:10:51.011860",
+      "data": {
+        "sample_index": 2,
+        "intrusion_probability": 0.0527542307972908,
+        "severity_level": 2,
+        "severity_name": "MEDIUM RISK",
+        "priority": "Medium",
+        "action_summary": "MEDIUM RISK: Review immediately and monitor source. Likely intrusion with 5.3% confidence. Check logs for similar activity.",
+        "immediate_actions": [
+          "Mark this traffic for immediate security review",
+          "Slow down or limit data from this source",
+          "Activate intrusion detection systems"
+        ],
+        "monitoring_actions": [
+          "Monitor this source IP in real-time",
+          "Check security logs for previous activity",
+          "Look up IP reputation online"
+        ],
+        "network_features": {
+          "duration": 7.0,
+          "protocol_type": "icmp",
+          "service": "ftp",
+          "flag": "SF",
+          "src_bytes": 2282.0,
+          "dst_bytes": 3287.0,
+          "count": 15.0,
+          "srv_count": 36.0,
+          "serror_rate": 0.0,
+          "num_failed_logins": 0.0,
+          "dst_host_count": 129.0
+        },
+        "blockchain_timestamp": "2025-11-23 06:10:51.011848",
+        "block_index": 1
+      },
+      "previous_hash": "a5c9656d2bd5ba5874308b84668a21da65952c3aa14f4dcfcb68002ed99f649b",
+      "hash": "946ba4a532921bcf27d23f36b21717141e6a45364bccc2979513342815b2b89b"
+    },
+    {
+      "index": 2,
+      "timestamp": "2025-11-23 06:10:51.015099",
+      "data": {
+        "sample_index": 6,
+        "intrusion_probability": 0.07087866216897964,
+        "severity_level": 2,
+        "severity_name": "MEDIUM RISK",
+        "priority": "Medium",
+        "action_summary": "MEDIUM RISK: Review immediately and monitor source. Likely intrusion with 7.1% confidence. Check logs for similar activity.",
+        "immediate_actions": [
+          "Mark this traffic for immediate security review",
+          "Slow down or limit data from this source",
+          "Activate intrusion detection systems"
+        ],
+        "monitoring_actions": [
+          "Monitor this source IP in real-time",
+          "Check security logs for previous activity",
+          "Look up IP reputation online"
+        ],
+        "network_features": {
+          "duration": 7.0,
+          "protocol_type": "icmp",
+          "service": "ftp",
+          "flag": "SF",
+          "src_bytes": 1951.0,
+          "dst_bytes": 2802.0,
+          "count": 5.0,
+          "srv_count": 23.0,
+          "serror_rate": 0.0,
+          "num_failed_logins": 0.0,
+          "dst_host_count": 116.0
+        },
+        "blockchain_timestamp": "2025-11-23 06:10:51.015090",
+        "block_index": 2
+      },
+      "previous_hash": "946ba4a532921bcf27d23f36b21717141e6a45364bccc2979513342815b2b89b",
+      "hash": "34e9e00ffe764eafc375966f9d50d69257a89c145ad64514390402c3756878fe"
+    },
+    {
+      "index": 3,
+      "timestamp": "2025-11-23 06:10:51.018128",
+      "data": {
+        "sample_index": 10,
+        "intrusion_probability": 0.25242817401885986,
+        "severity_level": 3,
+        "severity_name": "HIGH RISK",
+        "priority": "High",
+        "action_summary": "HIGH RISK - CRITICAL: Block source IP immediately! Serious attack detected with 25.2% confidence. Initiate incident response.",
+        "immediate_actions": [
+          "BLOCK this source IP immediately",
+          "Add IP to firewall blacklist",
+          "Drop all packets from this source",
+          "Cut off active connections"
+        ],
+        "monitoring_actions": [
+          "Check if other IPs from same network are attacking",
+          "Look for signs of system compromise",
+          "Check if IP is part of known botnet"
+        ],
+        "network_features": {
+          "duration": 2.0,
+          "protocol_type": "tcp",
+          "service": "eco_i",
+          "flag": "RSTO",
+          "src_bytes": 24.0,
+          "dst_bytes": 26.0,
+          "count": 169.0,
+          "srv_count": 149.0,
+          "serror_rate": 0.85,
+          "num_failed_logins": 0.0,
+          "dst_host_count": 199.0
+        },
+        "blockchain_timestamp": "2025-11-23 06:10:51.018123",
+        "block_index": 3
+      },
+      "previous_hash": "34e9e00ffe764eafc375966f9d50d69257a89c145ad64514390402c3756878fe",
+      "hash": "4fc615b011f329779eb9c711aa861e39d59822d238dcf2df6de675df24c7d9f8"
+    },
+    {
+      "index": 4,
+      "timestamp": "2025-11-23 06:10:51.019636",
+      "data": {
+        "sample_index": 11,
+        "intrusion_probability": 0.5773895978927612,
+        "severity_level": 3,
+        "severity_name": "HIGH RISK",
+        "priority": "High",
+        "action_summary": "HIGH RISK - CRITICAL: Block source IP immediately! Serious attack detected with 57.7% confidence. Initiate incident response.",
+        "immediate_actions": [
+          "BLOCK this source IP immediately",
+          "Add IP to firewall blacklist",
+          "Drop all packets from this source",
+          "Cut off active connections"
+        ],
+        "monitoring_actions": [
+          "Check if other IPs from same network are attacking",
+          "Look for signs of system compromise",
+          "Check if IP is part of known botnet"
+        ],
+        "network_features": {
+          "duration": 3.0,
+          "protocol_type": "udp",
+          "service": "smtp",
+          "flag": "RSTO",
+          "src_bytes": 30.0,
+          "dst_bytes": 39.0,
+          "count": 133.0,
+          "srv_count": 272.0,
+          "serror_rate": 0.81,
+          "num_failed_logins": 1.0,
+          "dst_host_count": 163.0
+        },
+        "blockchain_timestamp": "2025-11-23 06:10:51.019630",
+        "block_index": 4
+      },
+      "previous_hash": "4fc615b011f329779eb9c711aa861e39d59822d238dcf2df6de675df24c7d9f8",
+      "hash": "fd58c648650fe8c964edc478ae9cec167be675a6877ba4b8d1d2a23b58591434"
+    },
+    {
+      "index": 5,
+      "timestamp": "2025-11-23 06:10:51.020369",
+      "data": {
+        "sample_index": 12,
+        "intrusion_probability": 0.9880061745643616,
+        "severity_level": 3,
+        "severity_name": "HIGH RISK",
+        "priority": "High",
+        "action_summary": "HIGH RISK - CRITICAL: Block source IP immediately! Serious attack detected with 98.8% confidence. Initiate incident response. Active port scanning detected!",
+        "immediate_actions": [
+          "BLOCK this source IP immediately",
+          "Add IP to firewall blacklist",
+          "Drop all packets from this source",
+          "Cut off active connections",
+          "Block port scan - probing for weaknesses"
+        ],
+        "monitoring_actions": [
+          "Check if other IPs from same network are attacking",
+          "Look for signs of system compromise",
+          "Check if IP is part of known botnet"
+        ],
+        "network_features": {
+          "duration": 1.0,
+          "protocol_type": "udp",
+          "service": "eco_i",
+          "flag": "RSTO",
+          "src_bytes": 4.0,
+          "dst_bytes": 6.0,
+          "count": 259.0,
+          "srv_count": 232.0,
+          "serror_rate": 0.81,
+          "num_failed_logins": 2.0,
+          "dst_host_count": 168.0
+        },
+        "blockchain_timestamp": "2025-11-23 06:10:51.020365",
+        "block_index": 5
+      },
+      "previous_hash": "fd58c648650fe8c964edc478ae9cec167be675a6877ba4b8d1d2a23b58591434",
+      "hash": "bcf4d30de380165748423fa27a73f38a5fbd88600a5f8da0593bf1835ff67c6c"
+    },
+    {
+      "index": 6,
+      "timestamp": "2025-11-23 06:10:51.020958",
+      "data": {
+        "sample_index": 13,
+        "intrusion_probability": 0.282594233751297,
+        "severity_level": 3,
+        "severity_name": "HIGH RISK",
+        "priority": "High",
+        "action_summary": "HIGH RISK - CRITICAL: Block source IP immediately! Serious attack detected with 28.3% confidence. Initiate incident response.",
+        "immediate_actions": [
+          "BLOCK this source IP immediately",
+          "Add IP to firewall blacklist",
+          "Drop all packets from this source",
+          "Cut off active connections"
+        ],
+        "monitoring_actions": [
+          "Check if other IPs from same network are attacking",
+          "Look for signs of system compromise",
+          "Check if IP is part of known botnet"
+        ],
+        "network_features": {
+          "duration": 1.0,
+          "protocol_type": "tcp",
+          "service": "http",
+          "flag": "REJ",
+          "src_bytes": 48.0,
+          "dst_bytes": 35.0,
+          "count": 174.0,
+          "srv_count": 237.0,
+          "serror_rate": 0.82,
+          "num_failed_logins": 1.0,
+          "dst_host_count": 201.0
+        },
+        "blockchain_timestamp": "2025-11-23 06:10:51.020955",
+        "block_index": 6
+      },
+      "previous_hash": "bcf4d30de380165748423fa27a73f38a5fbd88600a5f8da0593bf1835ff67c6c",
+      "hash": "75cb6f73da48ca401dfe747c193932305f459327fe69a315398892593ee1de45"
+    },
+    {
+      "index": 7,
+      "timestamp": "2025-11-23 06:10:51.021567",
+      "data": {
+        "sample_index": 14,
+        "intrusion_probability": 0.9239568710327148,
+        "severity_level": 3,
+        "severity_name": "HIGH RISK",
+        "priority": "High",
+        "action_summary": "HIGH RISK - CRITICAL: Block source IP immediately! Serious attack detected with 92.4% confidence. Initiate incident response.",
+        "immediate_actions": [
+          "BLOCK this source IP immediately",
+          "Add IP to firewall blacklist",
+          "Drop all packets from this source",
+          "Cut off active connections"
+        ],
+        "monitoring_actions": [
+          "Check if other IPs from same network are attacking",
+          "Look for signs of system compromise",
+          "Check if IP is part of known botnet"
+        ],
+        "network_features": {
+          "duration": 3.0,
+          "protocol_type": "icmp",
+          "service": "http",
+          "flag": "RSTR",
+          "src_bytes": 13.0,
+          "dst_bytes": 42.0,
+          "count": 105.0,
+          "srv_count": 177.0,
+          "serror_rate": 0.97,
+          "num_failed_logins": 1.0,
+          "dst_host_count": 216.0
+        },
+        "blockchain_timestamp": "2025-11-23 06:10:51.021564",
+        "block_index": 7
+      },
+      "previous_hash": "75cb6f73da48ca401dfe747c193932305f459327fe69a315398892593ee1de45",
+      "hash": "6d175d98abc43faac02e71ff7570f2b288a0c923a17e6ec19c5d39047538d8bf"
+    },
+    {
+      "index": 8,
+      "timestamp": "2025-11-23 06:10:51.022205",
+      "data": {
+        "sample_index": 15,
+        "intrusion_probability": 0.9655866026878357,
+        "severity_level": 3,
+        "severity_name": "HIGH RISK",
+        "priority": "High",
+        "action_summary": "HIGH RISK - CRITICAL: Block source IP immediately! Serious attack detected with 96.6% confidence. Initiate incident response.",
+        "immediate_actions": [
+          "BLOCK this source IP immediately",
+          "Add IP to firewall blacklist",
+          "Drop all packets from this source",
+          "Cut off active connections"
+        ],
+        "monitoring_actions": [
+          "Check if other IPs from same network are attacking",
+          "Look for signs of system compromise",
+          "Check if IP is part of known botnet"
+        ],
+        "network_features": {
+          "duration": 1.0,
+          "protocol_type": "tcp",
+          "service": "smtp",
+          "flag": "S0",
+          "src_bytes": 24.0,
+          "dst_bytes": 18.0,
+          "count": 194.0,
+          "srv_count": 265.0,
+          "serror_rate": 0.86,
+          "num_failed_logins": 0.0,
+          "dst_host_count": 175.0
+        },
+        "blockchain_timestamp": "2025-11-23 06:10:51.022201",
+        "block_index": 8
+      },
+      "previous_hash": "6d175d98abc43faac02e71ff7570f2b288a0c923a17e6ec19c5d39047538d8bf",
+      "hash": "b69d6ec31fc5290b1b3a45ad8fb4a5a9ace5a8987b52087233e1af679107c1df"
+    },
+    {
+      "index": 9,
+      "timestamp": "2025-11-23 06:10:51.023104",
+      "data": {
+        "sample_index": 16,
+        "intrusion_probability": 0.9820221662521362,
+        "severity_level": 3,
+        "severity_name": "HIGH RISK",
+        "priority": "High",
+        "action_summary": "HIGH RISK - CRITICAL: Block source IP immediately! Serious attack detected with 98.2% confidence. Initiate incident response. Active port scanning detected!",
+        "immediate_actions": [
+          "BLOCK this source IP immediately",
+          "Add IP to firewall blacklist",
+          "Drop all packets from this source",
+          "Cut off active connections",
+          "Block port scan - probing for weaknesses"
+        ],
+        "monitoring_actions": [
+          "Check if other IPs from same network are attacking",
+          "Look for signs of system compromise",
+          "Check if IP is part of known botnet"
+        ],
+        "network_features": {
+          "duration": 1.0,
+          "protocol_type": "icmp",
+          "service": "eco_i",
+          "flag": "RSTO",
+          "src_bytes": 26.0,
+          "dst_bytes": 29.0,
+          "count": 257.0,
+          "srv_count": 275.0,
+          "serror_rate": 1.0,
+          "num_failed_logins": 1.0,
+          "dst_host_count": 244.0
+        },
+        "blockchain_timestamp": "2025-11-23 06:10:51.023100",
+        "block_index": 9
+      },
+      "previous_hash": "b69d6ec31fc5290b1b3a45ad8fb4a5a9ace5a8987b52087233e1af679107c1df",
+      "hash": "9aa70abfa061e32bb2892743797cc97d72aa4aad6c08a333df6183daf70b6384"
+    },
+    {
+      "index": 10,
+      "timestamp": "2025-11-23 06:10:51.024050",
+      "data": {
+        "sample_index": 17,
+        "intrusion_probability": 0.1375914216041565,
+        "severity_level": 3,
+        "severity_name": "HIGH RISK",
+        "priority": "High",
+        "action_summary": "HIGH RISK - CRITICAL: Block source IP immediately! Serious attack detected with 13.8% confidence. Initiate incident response.",
+        "immediate_actions": [
+          "BLOCK this source IP immediately",
+          "Add IP to firewall blacklist",
+          "Drop all packets from this source",
+          "Cut off active connections"
+        ],
+        "monitoring_actions": [
+          "Check if other IPs from same network are attacking",
+          "Look for signs of system compromise",
+          "Check if IP is part of known botnet"
+        ],
+        "network_features": {
+          "duration": 2.0,
+          "protocol_type": "udp",
+          "service": "ftp",
+          "flag": "RSTO",
+          "src_bytes": 43.0,
+          "dst_bytes": 29.0,
+          "count": 105.0,
+          "srv_count": 138.0,
+          "serror_rate": 0.95,
+          "num_failed_logins": 2.0,
+          "dst_host_count": 168.0
+        },
+        "blockchain_timestamp": "2025-11-23 06:10:51.024045",
+        "block_index": 10
+      },
+      "previous_hash": "9aa70abfa061e32bb2892743797cc97d72aa4aad6c08a333df6183daf70b6384",
+      "hash": "f71a7503911b9c80361359b984b03ae07c063718a96fcc31a0f1e537835ba491"
+    },
+    {
+      "index": 11,
+      "timestamp": "2025-11-23 06:10:51.024776",
+      "data": {
+        "sample_index": 18,
+        "intrusion_probability": 0.678168535232544,
+        "severity_level": 3,
+        "severity_name": "HIGH RISK",
+        "priority": "High",
+        "action_summary": "HIGH RISK - CRITICAL: Block source IP immediately! Serious attack detected with 67.8% confidence. Initiate incident response.",
+        "immediate_actions": [
+          "BLOCK this source IP immediately",
+          "Add IP to firewall blacklist",
+          "Drop all packets from this source",
+          "Cut off active connections"
+        ],
+        "monitoring_actions": [
+          "Check if other IPs from same network are attacking",
+          "Look for signs of system compromise",
+          "Check if IP is part of known botnet"
+        ],
+        "network_features": {
+          "duration": 1.0,
+          "protocol_type": "icmp",
+          "service": "eco_i",
+          "flag": "S0",
+          "src_bytes": 43.0,
+          "dst_bytes": 8.0,
+          "count": 182.0,
+          "srv_count": 289.0,
+          "serror_rate": 0.81,
+          "num_failed_logins": 2.0,
+          "dst_host_count": 156.0
+        },
+        "blockchain_timestamp": "2025-11-23 06:10:51.024773",
+        "block_index": 11
+      },
+      "previous_hash": "f71a7503911b9c80361359b984b03ae07c063718a96fcc31a0f1e537835ba491",
+      "hash": "309830ee5fe9e96686c766bbfea80e992dea03fa4af4930a74acdccaf50f9ddb"
+    },
+    {
+      "index": 12,
+      "timestamp": "2025-11-23 06:10:51.025744",
+      "data": {
+        "sample_index": 19,
+        "intrusion_probability": 0.8395829796791077,
+        "severity_level": 3,
+        "severity_name": "HIGH RISK",
+        "priority": "High",
+        "action_summary": "HIGH RISK - CRITICAL: Block source IP immediately! Serious attack detected with 84.0% confidence. Initiate incident response.",
+        "immediate_actions": [
+          "BLOCK this source IP immediately",
+          "Add IP to firewall blacklist",
+          "Drop all packets from this source",
+          "Cut off active connections"
+        ],
+        "monitoring_actions": [
+          "Check if other IPs from same network are attacking",
+          "Look for signs of system compromise",
+          "Check if IP is part of known botnet"
+        ],
+        "network_features": {
+          "duration": 2.0,
+          "protocol_type": "icmp",
+          "service": "smtp",
+          "flag": "S0",
+          "src_bytes": 29.0,
+          "dst_bytes": 7.0,
+          "count": 128.0,
+          "srv_count": 274.0,
+          "serror_rate": 0.96,
+          "num_failed_logins": 1.0,
+          "dst_host_count": 213.0
+        },
+        "blockchain_timestamp": "2025-11-23 06:10:51.025739",
+        "block_index": 12
+      },
+      "previous_hash": "309830ee5fe9e96686c766bbfea80e992dea03fa4af4930a74acdccaf50f9ddb",
+      "hash": "7920536df29ea6bb0193cb24ecc59b5e35954d5d899c02e71b2661ad9917abd4"
+    }
+  ]
+}
