@@ -1,26 +1,32 @@
-# 🚀 IntrusionX AI
+🚀 IntrusionX AI
 
-🏆 Built for REDACT 2025 Hackathon  
-📅 November 22-23, 2025 | 📍 SPIT Mumbai  
+An Explainable Intrusion Detection System for Modern Cybersecurity
+
+🏆 Developed for REDACT 2025 Hackathon
+📅 22–23 November 2025 | 📍 SPIT, Mumbai
 🎯 Theme: Uncover the Unknown, Secure the Future
 
----
+🛡️ Overview
 
-## 🛡️ Overview
+IntrusionX AI is an advanced cybersecurity system engineered to detect malicious network activity in real time using state-of-the-art Machine Learning models. Unlike traditional Intrusion Detection Systems—which often behave as opaque “black boxes”—IntrusionX AI integrates Explainable AI (SHAP) to provide clear, human-understandable justifications for every detection decision.
 
-IntrusionX AI is an intelligent cybersecurity system designed to detect malicious network activity in real time using Machine Learning. The system identifies attacks, explains the reasoning using Explainable AI (SHAP), and stores detected threats securely for tamper-proof auditing.
+🎯 Problem Statement
 
-It provides a modern visual dashboard to analyze anomalies, classify intrusion attempts, visualize threat metrics, and suggest preventive actions.
+Conventional IDS solutions alert administrators about potential threats but fail to explain why those threats were flagged. This lack of transparency slows decisions, reduces trust, and increases the likelihood of missed attacks.
 
----
+✔ Our Solution
 
-## 🎯 The Problem
+IntrusionX AI delivers a transparent and interpretable threat detection pipeline combining:
 
-Traditional Intrusion Detection Systems operate as "black boxes" - they alert security teams about threats but don't explain why. This makes it hard to trust automated decisions and slows down incident response.
+Machine Learning-driven intrusion classification
 
-Our Solution: IntrusiveX AI combines powerful ML models with SHAP explainability to provide transparent, interpretable threat detection with actionable recommendations.
+SHAP-based explainability
 
----
+Secure logging for tamper-proof auditing
+
+Real-time analytics and a sleek reporting dashboard
+
+This empowers cybersecurity teams with clearer insights and faster response capabilities.
 
 ## 📌 Key Features
 
@@ -89,7 +95,7 @@ pip install -r requirements.txt
 python api.py
 ```
 
-Backend will start at: http://localhost:5000
+Backend runs at http://localhost:5000
 
 ### 3️⃣ Frontend Setup
 
@@ -99,21 +105,27 @@ npm install
 npm start
 ```
 
-Frontend will start at: http://localhost:3000
+Frontend runs at http://localhost:3000
 
 ---
 
-## 📡 How It Works
+📡 How It Works
 
-1. User uploads network traffic dataset or CSV file
+User uploads network traffic data (CSV or dataset)
 
-2. Model processes data and detects normal traffic and multiple forms of intrusion (DOS, R2L, U2R, Probe, etc.)
+ML model processes and predicts intrusion types
 
-3. Results are sent to UI with per-row detection results, confidence score, threat suggestion and remediation
+Each record receives:
 
-4. Visualizations (Confusion Matrix, Feature Importance) displayed on dashboard
+Prediction label
 
----
+Confidence score
+
+SHAP explanation
+
+Recommended action
+
+Dashboard visualizes overall threat metrics and insights
 
 ## 🧪 Sample Output
 
@@ -150,9 +162,7 @@ Mobile app for monitoring
 
 ## 🙏 Acknowledgments
 
-Special thanks to Suraksha SPIT Cell and SPIT Mumbai for organizing REDACT 2025, and to our mentors for their guidance throughout the hackathon.
-
----
+We express our gratitude to Suraksha SPIT Cell and SPIT Mumbai for hosting REDACT 2025. Special thanks to our mentors for their continuous support during the hackathon.
 
 ## 📞 Contact
 
