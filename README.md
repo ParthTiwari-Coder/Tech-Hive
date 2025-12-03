@@ -45,10 +45,10 @@ Our Solution: IntrusiveX AI combines powerful ML models with SHAP explainability
 | Layer | Technology |
 |-------|-----------|
 | Frontend | React.js, Axios, Chart.js/Recharts |
-| Backend | Python (Flask/FastAPI/Django), ML Model (Pickle/Sklearn) |
+| Backend | Python (Flask/FastAPI)  ML Model (Pickle/Sklearn) |
 | ML Model | RandomForest / XGBoost / Gradient Boosting |
 | Explainability | SHAP |
-| Storage | SQLite / MongoDB / IPFS (Optional) |
+
 
 ---
 
@@ -160,8 +160,6 @@ GitHub: [@ParthTiwari-Coder](https://github.com/ParthTiwari-Coder)
 
 LinkedIn: [Parth Tiwari](https://www.linkedin.com/in/parth-tiwari-164474331)
 
----
 
-Made with ❤️ during REDACT 2025 Hackathon
 
 ⭐ Star this repo if you found it useful!
