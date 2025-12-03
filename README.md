@@ -55,7 +55,7 @@ Our Solution: IntrusiveX AI combines powerful ML models with SHAP explainability
 ## 📁 Project Structure
 
 ```
-Intrusion-AI/
+IntrusionX-AI/
 │
 ├── backend/
 │   ├── model.pkl
