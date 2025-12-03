@@ -1,4 +1,4 @@
-**🚀 IntrusionX AI **
+## 🚀 IntrusionX AI 
 
 An Explainable Intrusion Detection System for Modern Cybersecurity
 
