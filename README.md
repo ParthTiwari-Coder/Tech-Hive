@@ -8,7 +8,7 @@
 
 ## 🛡️ Overview
 
-IntrusiveX AI is an intelligent cybersecurity system designed to detect malicious network activity in real time using Machine Learning. The system identifies attacks, explains the reasoning using Explainable AI (SHAP), and stores detected threats securely for tamper-proof auditing.
+IntrusionX AI is an intelligent cybersecurity system designed to detect malicious network activity in real time using Machine Learning. The system identifies attacks, explains the reasoning using Explainable AI (SHAP), and stores detected threats securely for tamper-proof auditing.
 
 It provides a modern visual dashboard to analyze anomalies, classify intrusion attempts, visualize threat metrics, and suggest preventive actions.
 
@@ -55,7 +55,7 @@ Our Solution: IntrusiveX AI combines powerful ML models with SHAP explainability
 ## 📁 Project Structure
 
 ```
-IntrusiveX-AI/
+Intrusion-AI/
 │
 ├── backend/
 │   ├── model.pkl
