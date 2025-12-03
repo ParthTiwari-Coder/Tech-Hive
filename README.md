@@ -1,4 +1,4 @@
-# 🚀 IntrusiveX AI
+# 🚀 IntrusionX AI
 
 🏆 Built for REDACT 2025 Hackathon  
 📅 November 22-23, 2025 | 📍 SPIT Mumbai  
